@@ -28,6 +28,10 @@ ul {
 ul {
   list-style: none;
 }
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -117,12 +121,9 @@ ul {
 .header-nav__link--color {
   color: var(--adult-color);
 }
-/* header */
+/* header end*/
 
-.section {
-  padding-top: 94px;
-  padding-bottom: 94px;
-}
+/* hero start */
 .section-hero {
   padding: 200px 0;
   text-align: center;
@@ -169,6 +170,9 @@ ul {
 .section-hero__button:focus {
   background-color: var(--title-button-color);
 }
+/* hero end */
+
+/* advantages start */
 .visual-hidden {
   position: absolute;
   white-space: nowrap;
@@ -212,6 +216,9 @@ ul {
   color: var(--adult-color);
   margin-top: 10px;
 }
+/* advantages end */
+
+/* works start */
 .section-works {
   padding-top: 0;
 }
@@ -251,6 +258,8 @@ ul {
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+/* works end */
+
 /* team start */
 .section-team {
   background-color: var(--section-color);
@@ -591,7 +600,7 @@ ul {
 }
 /* footer end*/
 
-/* modal */
+/* modal start*/
 
 .backdrop.is-hidden {
   visibility: hidden;
@@ -792,3 +801,4 @@ ul {
 .form__button:focus {
   background-color: var(--title-button-color);
 }
+/* modal end */
